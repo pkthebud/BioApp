@@ -8,27 +8,33 @@ angular.module('starter.services', [])
     id: 0,
     name: 'William Mullholland',
     lastText: 'Saint or Sinner?',
-    face: 'img/willmull.png'
+    face: 'img/willmull.png',
+    audio: true,
+    bio: 'William Mulholland Mary:- I would love to go to Los Angeles some day, have you ever been there?'
   }, {
     id: 1,
     name: 'Henry Ford',
     lastText: 'Fail harder!',
-    face: 'img/henryford.png'
+    face: 'img/henryford.png',
+    audio: false
   }, {
     id: 2,
     name: 'Henry David Thoreaux',
     lastText: 'What are you doing out there?',
-    face: 'img/hthor.png'
+    face: 'img/hthor.png',
+    audio: false
   }, {
     id: 3,
     name: 'John D Rockerfeller',
     lastText: 'there was blud',
-    face: 'img/johnD.png'
+    face: 'img/johnD.png',
+    audio: false
   }, {
     id: 4,
     name: 'Nathanial Hawthorne',
     lastText: 'I was bleedin scarlet!',
-    face: 'img/hawthorne.png'
+    face: 'img/hawthorne.png',
+    audio: false
   }];
 
   return {
